@@ -23,4 +23,33 @@ public class Student {
         Student s1 = new Student();
         System.out.println(s1);
     }
+
+    // Getters and Setters
+    public int getRollNo() {
+        return RollNo;
+    }
+    public void setRollNo(int rollNo) {
+        this.RollNo = rollNo;
+    }
+
+    public String getName() {
+        return Name;
+    }
+    public void setName(String name) {
+        this.Name = name;
+    }
+
+    public int getMarks() {
+        return Marks;
+    }
+    public void setMarks(int marks) {
+        this.Marks = marks;
+    }
+
+    public int getStandard() {
+        return Standard;
+    }
+    public void setStandard(int standard) {
+        this.Standard = standard;
+    }
 }
