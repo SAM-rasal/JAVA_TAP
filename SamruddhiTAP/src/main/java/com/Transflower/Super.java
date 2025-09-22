@@ -67,7 +67,7 @@ class Dog extends Animal {
     }
 
     public void AnimalLegs() {
-        int getLeg = super.getlegs(); // call method correctly
+        int getLeg = super.getlegs(); // call method
         System.out.println("Animal legs = " + getLeg);
     }
 }
